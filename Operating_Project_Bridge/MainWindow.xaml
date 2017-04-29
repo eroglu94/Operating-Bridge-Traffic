@@ -1,0 +1,348 @@
+﻿<Controls:MetroWindow
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Operating_Project_Bridge.MainWindow"
+                      Title="MainWindow"
+                      Height="577"
+                      Width="658"
+                      GlowBrush="{DynamicResource AccentColorBrush}" Background="#FF2F2F45" ShowTitleBar="False" ResizeMode="NoResize">
+    <Grid x:Name="maingrid">
+        <Grid Margin="0,25,0,50">
+            <Image x:Name="img_Yol" Source="Road.png"/>
+            <Image x:Name="Road1_1" Margin="200,145,417,0" VerticalAlignment="Top" Source="RedCar.png" Height="75" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="120"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_2" Margin="130,105,487,0" VerticalAlignment="Top" Source="RedCar.png" Height="75" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="120"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_3" Margin="60,65,557,0" VerticalAlignment="Top" Source="RedCar.png" Height="75" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="120"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_4" Margin="-10,25,627,0" VerticalAlignment="Top" Source="RedCar.png" Height="75" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="120"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_5" Margin="325,175,292,223" Source="RedCar.png" Width="35" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="HorizontalAlignment" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_6" Margin="405,175,212,223" Source="RedCar.png" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_7" Margin="485,175,132,223" Source="RedCar.png" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road1_8" Margin="570,175,47,223" Source="RedCar.png" Width="35" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_1" Margin="210,200,0,203" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_2" Margin="131,200,0,203" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_3" Margin="55,200,0,203" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_4" Margin="-25,200,0,203" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_5_up" Margin="0,175,292,228" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_6_up" Margin="0,175,212,228" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_7_up" Margin="0,175,136,228" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_8_up" Margin="0,175,57,228" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_5_down" Margin="0,225,292,178" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_6_down" Margin="0,225,212,178" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_7_down" Margin="0,225,136,178" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road2_8_down" Margin="0,225,57,178" Source="BlueCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="29" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_1" Margin="197,275,0,128" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="60"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_2" Margin="132,315,0,88" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="60"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_3" Margin="65,355,0,48" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="60"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_4" Margin="-3,395,0,8" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Left" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="60"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_5" Margin="0,225,292,178" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalAlignment" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_6" Margin="0,225,212,178" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalAlignment" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_7" Margin="0,225,134,178" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalAlignment" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Road3_8" Margin="0,225,54,178" Source="GreenCar.png" Stretch="Fill" HorizontalAlignment="Right" Width="33" Height="70" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="VerticalAlignment" Visibility="Hidden">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Right" Margin="0,25,162,0" TextWrapping="Wrap" Text="Red Cars:" VerticalAlignment="Top" Height="20" Width="67.75" Foreground="#FFD35858" FontSize="16"/>
+            <TextBlock x:Name="textBlock_Copy" HorizontalAlignment="Right" Margin="0,45,162,0" TextWrapping="Wrap" Text="Blue Cars:" VerticalAlignment="Top" Height="20" Width="70" Foreground="#FF7474E6" FontSize="16"/>
+            <TextBlock x:Name="textBlock_Copy1" HorizontalAlignment="Right" Margin="0,65,157,0" TextWrapping="Wrap" Text="Green Cars:" VerticalAlignment="Top" Height="20" Width="85" Foreground="#FF58E658" FontSize="16"/>
+            <TextBlock x:Name="lbl_redcars" HorizontalAlignment="Right" Margin="0,25,107,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="20" Width="50" Foreground="White" FontSize="16"/>
+            <TextBlock x:Name="lbl_greencars" HorizontalAlignment="Right" Margin="0,65,107,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="20" Width="50" Foreground="White" FontSize="16"/>
+            <TextBlock x:Name="lbl_bluecars" HorizontalAlignment="Right" Margin="0,45,107,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Height="20" Width="50" Foreground="White" FontSize="16"/>
+        </Grid>
+        <Canvas x:Name="canvas" Margin="0,25,0,50">
+            <Image x:Name="Light_Red_1" Source="Untitled-1.png" Stretch="Fill" Width="17.5" Height="35" RenderTransformOrigin="0.5,0.5" Canvas.Left="255" Canvas.Top="190">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="35"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Light_Red_2" Source="Untitled-1.png" Stretch="Fill" Width="17.5" Height="35" Canvas.Left="265" Canvas.Top="235"/>
+            <Image x:Name="Light_Red_3" Source="Untitled-1.png" Stretch="Fill" Width="17.5" Height="35" RenderTransformOrigin="0.5,0.5" Canvas.Left="255" Canvas.Top="280">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-35"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Light_Green_1" Source="Untitled-2.png" Stretch="Fill" Width="17.5" Height="35" RenderTransformOrigin="0.5,0.5" Canvas.Left="255" Canvas.Top="190" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="35"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image x:Name="Light_Green_2" Source="Untitled-2.png" Stretch="Fill" Width="17.5" Height="35" Canvas.Left="265" Canvas.Top="235" Visibility="Visible"/>
+            <Image x:Name="Light_Green_3" Source="Untitled-2.png" Stretch="Fill" Width="17.5" Height="35" RenderTransformOrigin="0.5,0.5" Canvas.Left="255" Canvas.Top="280" Visibility="Visible">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-35"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </Canvas>
+
+        <Button x:Name="button" Content="BEGIN" Click="button_Click" HorizontalAlignment="Right" Margin="0,0,10,10" VerticalAlignment="Bottom" Width="103" FontSize="14" FontWeight="Bold"/>
+
+    </Grid>
+</Controls:MetroWindow>

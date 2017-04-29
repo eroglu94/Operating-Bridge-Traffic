@@ -1,0 +1,20 @@
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\Operating_Project_Bridge.exe.config
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\Operating_Project_Bridge.exe
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\Operating_Project_Bridge.pdb
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\MahApps.Metro.dll
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\System.Windows.Interactivity.dll
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\MahApps.Metro.xml
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.csprojResolveAssemblyReference.cache
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\MainWindow.baml
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\App.baml
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\MainWindow.g.cs
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\App.g.cs
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge_MarkupCompile.cache
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.g.resources
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.Properties.Resources.resources
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.csproj.GenerateResource.Cache
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.exe
+c:\users\cagri\documents\visual studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.pdb
+D:\Yedek\format 12.01.2017\Documents\Visual Studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\bin\Debug\Operating_Project_Bridge.exe.config
+D:\Yedek\format 12.01.2017\Documents\Visual Studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.exe
+D:\Yedek\format 12.01.2017\Documents\Visual Studio 2015\Projects\Operating_Project_Bridge\Operating_Project_Bridge\obj\Debug\Operating_Project_Bridge.pdb
